@@ -8,6 +8,9 @@ dir(ipaddr)
 
 
 a=ipaddr.IPv4Network("10.10.255.254/16")
+
 b=a.masked()
+
 str(b)
+
 '10.10.0.0/16'
